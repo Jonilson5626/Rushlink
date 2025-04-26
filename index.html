@@ -1,140 +1,155 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ConectaPro - Links Profissionais</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-    }
-    header {
-      background-color: #1a1a1a;
-      color: #fff;
-      padding: 15px 30px;
-      text-align: center;
-      font-size: 2em;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    header .clock {
-      font-size: 1.2em;
-      font-weight: bold;
-      color: #f0e68c;
-    }
-    main {
-      padding: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-      max-width: 1200px;
-      margin: 20px auto;
-    }
-    .card {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-    .card:hover {
-      transform: translateY(-10px);
-    }
-    .card-title {
-      font-size: 1.4em;
-      margin-bottom: 15px;
-      color: #2c3e50;
-    }
-    .card a {
-      text-decoration: none;
-      background-color: #007bff;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
-    .card a:hover {
-      background-color: #0056b3;
-    }
-    .banner {
-      width: 100%;
-      height: 200px;
-      background-color: #f39c12;
-      text-align: center;
-      line-height: 200px;
-      color: #fff;
-      font-size: 1.5em;
-      font-weight: bold;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-    }
-    .banner:hover {
-      background-color: #e67e22;
-    }
-    footer {
-      background-color: #2c3e50;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 30px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ConectaPro – Links de TV</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header>
-    <div>ConectaPro</div>
-    <div class="clock" id="clock"></div>
+    <div class="top-bar">
+      <h1>ConectaPro</h1>
+      <div id="clock">--:--:--</div>
+    </div>
+    <div class="banner-info">
+      <p>Este site compartilha diversos links de TV organizados por categorias. Aproveite!</p>
+    </div>
   </header>
 
   <main>
-    <div class="banner">Publicidade 1 - Espaço para seu Banner</div>
-    <div class="card">
-      <div class="card-title">Grupo 1</div>
-      <a href="#">Acessar</a>
+    <section class="links-grid">
+      <!-- 30 blocos de links -->
+      <div class="link-box">
+      <h2>Canal 1</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
     </div>
-    <div class="card">
-      <div class="card-title">Grupo 2</div>
-      <a href="#">Acessar</a>
+<div class="link-box">
+      <h2>Canal 2</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
     </div>
-    <div class="card">
-      <div class="card-title">Grupo 3</div>
-      <a href="#">Acessar</a>
+<div class="link-box">
+      <h2>Canal 3</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
     </div>
-    <div class="banner">Publicidade 2 - Outro Banner</div>
-    <div class="card">
-      <div class="card-title">Grupo 30</div>
-      <a href="#">Acessar</a>
+<div class="link-box">
+      <h2>Canal 4</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
     </div>
+<div class="link-box">
+      <h2>Canal 5</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 6</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 7</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 8</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 9</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 10</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 11</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 12</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 13</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 14</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 15</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 16</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 17</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 18</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 19</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 20</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 21</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 22</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 23</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 24</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 25</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 26</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 27</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 28</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 29</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+<div class="link-box">
+      <h2>Canal 30</h2>
+      <a href="#" target="_blank" class="btn">Acessar</a>
+    </div>
+    </section>
   </main>
 
   <footer>
-    &copy; 2025 - ConectaPro. Todos os direitos reservados.
+    <p>&copy; 2025 ConectaPro. Todos os direitos reservados.</p>
+    <p>Contato: contato@conectapro.com | Instagram: @conectapro.tv</p>
   </footer>
 
-  <script>
-    function updateClock() {
-      const now = new Date();
-      const options = { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit', second: '2-digit' };
-      const timeString = now.toLocaleTimeString('pt-BR', options);
-      document.getElementById('clock').textContent = timeString;
-    }
-    setInterval(updateClock, 1000);
-    updateClock();
-  </script>
+  <div id="visitors">Visitantes online: <span id="online-count">...</span></div>
 </body>
 </html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu Site</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    main {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      background-color: #292929;
+    }
+    .card a {
+      text-decoration: none;
+      color: #00aaff;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #1f1f1f;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Nome do Seu Site
+  </header>
+
+  <main>
+    <div class="card">
+      <a href="#">Link 1</a>
+    </div>
+    <div class="card">
+      <a href="#">Link 2</a>
+    </div>
+    <div class="card">
+      <a href="#">Link 3</a>
+    </div>
+    <!-- Adicione mais cards conforme necessário -->
+  </main>
+
+  <footer>
+    &copy; 2025 - Seu Nome ou Projeto
+  </footer>
+</body>
+</html>
